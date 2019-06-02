@@ -8,7 +8,7 @@
         
         <style>
             body{
-                <?php $colour = $_POST['bgColour'];?>
+                <?php $colour = $_POST['bgColour']; ?>
                 background-color: <?php echo $colour; ?>;
             }
             form{
